@@ -1,0 +1,20 @@
+import styled from 'styled-components'
+import { Link } from 'react-router-dom';
+
+export const BackLink = styled(Link)`
+    display: flex;
+    width: 60px;
+    font-weight: bold;
+    color: #000000;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #e4e4e4;
+    box-shadow: 6px 2px 0px 1px rgb(0 10 0 / 12%);
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        background-color: #d3d3d3;
+         box-shadow: none;
+    }
+    `
